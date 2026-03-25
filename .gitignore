@@ -1,0 +1,101 @@
+# ============================================
+# Dependencies - npm install කිරීමෙන් generate වේ
+# ============================================
+node_modules/
+package-lock.json
+yarn.lock
+
+# ============================================
+# Environment Variables - ඇතිවම ගිට් එකට යන්න ඇතිවම!
+# Database password & API keys තිබෙනවා
+# ============================================
+.env
+.env.local
+.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ============================================
+# IDE & Editor Settings - Personal configuration
+# ============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+*.iml
+
+# ============================================
+# OS & System Files
+# ============================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.Thumbs.db
+desktop.ini
+
+# ============================================
+# Logs & Debug Files
+# ============================================
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# ============================================
+# Temporary & Cache Files
+# ============================================
+temp/
+tmp/
+*.tmp
+.cache/
+.parcel-cache
+dist-*
+
+# ============================================
+# Build Output
+# ============================================
+build/
+dist/
+out/
+coverage/
+
+# ============================================
+# Development & Testing
+# ============================================
+.nyc_output/
+.venv
+venv/
+env/
+.pytest_cache/
+
+# ============================================
+# Package manager
+# ============================================
+pnpm-lock.yaml
+
+# ============================================
+# IDE-specific files
+# ============================================
+.classpath
+.project
+.c9/
+*.launch
+.settings/
+*.sublime-settings
+
+# ============================================
+# Environment & Config
+# ============================================
+.env.*.vault
+*.pem
+*.key
